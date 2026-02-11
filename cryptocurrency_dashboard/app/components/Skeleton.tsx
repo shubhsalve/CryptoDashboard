@@ -1,0 +1,8 @@
+export default function Skeleton({ className = "" }: { className?: string }) {
+    return (
+        <div
+            className={`animate-pulse bg-muted rounded-xl ${className}`}
+            role="status"
+        />
+    );
+}
